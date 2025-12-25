@@ -24,7 +24,7 @@ Email;Дата создания;Статус;Notes;Последний вход;D
 
 Пример строки:
 
-admin@domanin.com;20161007172137Z;active;never_disable;2022-06-14 18:48:15;Администратор
+admin@domain.com;20161007172137Z;active;never_disable;20220614184815.765Z;Administrator
 
 ---
 
@@ -107,7 +107,7 @@ Email;Creation Date;Status;Notes;Last Login;DisplayName
 
 Example:
 
-admin@domanin.com;20161007172137Z;active;never_disable;2022-06-14 18:48:15;Administrator
+admin@domain.com;20161007172137Z;active;never_disable;20220614184815.765Z;Administrator
 
 ---
 
