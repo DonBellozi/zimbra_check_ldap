@@ -12,7 +12,7 @@ umask 0022
 # Параметры подключения 
 LDAP_HOST="ldap://127.0.0.1:389" # ← если потребуется необходимо отредактировать под свой IP адрес 
 LDAP_BIND_DN="uid=zimbra,cn=admins,cn=zimbra"
-LDAP_PASS="$(zmlocalconfig -s zimbra_ldap_password | awk '{print $2}')"  # ← авто-подставляем пароль
+LDAP_PASS="$(zmlocalconfig -s zimbra_ldap_password | awk '{print $3}')"  # ← авто-подставляем пароль
 
 
 # Целевой файл
